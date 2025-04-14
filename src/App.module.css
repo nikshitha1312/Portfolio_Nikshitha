@@ -1,0 +1,87 @@
+/* General Styles  */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0c0c0c; /* Light gray background for the whole page  */
+  color: #ec6767; /* Dark gray text  */
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header  */
+
+header {
+  background-color: #333; /* Dark gray header  */
+  color: #f19595; /* White text  */
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+header h1 {
+  margin: 0;
+  display: inline;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections  */
+
+#about, #education, #projects, #skills, #contact {
+  background-color: #7d720b; /* White background for sections  */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#about h2, #education h2, #projects h2, #skills h2, #contact h2 {
+  color: #444; /* Slightly darker gray for section titles  */
+  border-bottom: 2px solid #a49d0f; /* Light gray underline  */
+  padding-bottom: 0.5em;
+}
+
+/* Specific Section Styling (Optional)  */
+
+#about {
+  background-color: #1f1e1e; /* Lighter gray for About  */
+}
+
+#projects {
+  background-color: #bba618; /* Slightly darker for Projects  */
+}
+
+/* Footer  */
+
+footer {
+  background-color: #1b1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}

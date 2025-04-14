@@ -1,0 +1,50 @@
+/* components/Header.module.css */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navLink:hover {
+    background-color: #555;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navLinks {
+      margin-top: 0.5rem;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navLink {
+      padding: 0.5rem;
+    }
+  }
