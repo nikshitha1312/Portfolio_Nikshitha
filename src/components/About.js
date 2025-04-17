@@ -16,8 +16,8 @@ determination. I am excited to engage in academic projects, internships, and ext
 contribute to my growth as a future professional in the tech industry.</p>
       <p>Email: nikshitha1312@gmail.com</p>
       <p>Phone: +91-9347556415</p>
-      {/* Add LinkedIn link here */}
-      <a href="https://www.linkedin.com/in/nikshitha-vadthyavath-40656325a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      {/* https://www.linkedin.com/in/v-nikshitha-860655258/ */}
+      <a href="https://www.linkedin.com/in/v-nikshitha-860655258/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </section>
   );
 }
