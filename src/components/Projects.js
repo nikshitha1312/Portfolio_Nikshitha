@@ -46,7 +46,7 @@ Modern React patterns and hooks </p>
     <p><a href="https://github.com/nikshitha1312/workspace" target="_blank">View Project on GitHub</a></p>
       </div>
    <div className={styles.project}>
-        <h3>workspace</h3>
+        <h3>Grammar_Scoring_engine</h3>
       <p>The Grammar Scoring Engine project uses machine learning and speech recognition to evaluate spoken English, transcribe audio to text, and provide grammar scoring and feedback in real time. It is especially useful for learners and professionals improving their language skills.</p>
 <p>Technologies Used: Python, Jupyter Notebook, SpeechRecognition, TextBlob, Flask</p>
 <p>Key Achievement: Developed a speech-to-text grammar evaluation pipeline that accurately identifies grammar issues and gives user-friendly feedback with live audio support.</p>
